@@ -1,0 +1,173 @@
+#footer {
+    background-color: #7B2039;
+    height: 290px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-a-propos {
+    width: 200px;
+    text-align: center;
+}
+
+.footer-a-propos h2 {
+    color: white;
+}
+
+.footer-about h2 {
+    color: white;
+    text-align: center;
+
+}
+
+.footer-about ul {
+    list-style: none;
+}
+
+.footer-about a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-nos-agences h2 {
+    color: white;
+    text-align: center;
+
+}
+
+.footer-nos-agences a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-nos-agences ul {
+    list-style: none;
+}
+
+.footer-contact h2 {
+    color: WHITE;
+    text-align: center;
+
+}
+
+.footer-copyright {
+    background-color: #644141;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer ul li a:hover {
+    color: white;
+
+}
+
+/* contact Section */
+#contact {
+    background: linear-gradient( #3f3333, #433535, #433535, #352727, #664343);
+    color: white;
+}
+
+.contact-nous {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#f8f7f7, #9F636B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-container {
+    text-align: center;
+
+}
+
+.contact-container-contact {
+    padding-block: 40px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-contain {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 20px;
+
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-nom-prenom {
+    display: flex;
+    gap: 5px;
+   
+    color: white;
+
+}
+
+.contact-input-n-p {
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 35px;
+    color: white;
+
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.247) solid;
+
+}
+
+
+.contact-input {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.247) solid;
+}
+
+
+
+.contact-button {
+    background-color: #7B2039;
+    width: 100%;
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.247) solid;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.481);
+    padding-block: 10px;
+}
+ 
+
+
+.contact-message {
+    height: 50px;
+}
+
+.contactt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-image1 {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 800px;
+
+}
